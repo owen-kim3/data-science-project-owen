@@ -60,4 +60,14 @@ Now we filter the dataframe for only the years in which a team fired their coach
 Midseason Firings Distributions:
 
 ![Box Plot 2](box_plot2.png)
+Mean win percentage for old coaches (red graph): 0.254
+Mean win percentage for last new coaches (blue graph): 0.379
+
+In the new Coach distribution, there are two coaches that coached exactly one game and each won that game. We removed those observations from the filtered observations and considered them outliers, the updated visualization is shown below.
+
+Mid-Season Firings (Outliers Removed):
+
+![Box Plot 3](box_plot3.png)
+
+
 
