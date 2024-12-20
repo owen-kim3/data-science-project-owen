@@ -50,3 +50,14 @@ Correlation Coefficient : -0.758
 The scatter plot above is plotting each team’s total win percentage for each team on the y-axis, with the number of different coaches for each team on the x-axis. The correlation coefficient of -0.758 is showing a strong negative correlation between the two variables; when a team has more coaches, their total win percentage is lower compared to a team with less coaches. Clearly, teams that do not fire their coach as often tend to have more wins, as shown by our linear regression. But do the teams who do fire their coach actually get better following the firing? One way to answer this is by examining win totals of the coach's final seasons with a team compared to win totals in the coach's first seasons with teams. We do this in the following histograms and boxplots:
 
 ![Box Plot](box_plot1.png)
+Mean win percentage for new coaches (blue graph): 0.42
+Mean win percentage for last coaches (red graph): 0.324
+
+From these visualizations, we see that, although not guaranteed, teams generally improve in the season after the hiring of a new coach. The mean win percentage for new coaches rose by roughly 10% and even visually you can see the change in the distribution from the histograms. The box plots show that there is a wider range of win percentages among new coaches, but the range extends only in the positive direction compared to previous coaches. In summary, it is common, but not guaranteed, for a team’s win percentage to increase after the hiring of a new coach. This made us wonder what these values would look like for midseason firings, which usually happen in response to a bad start to the season. 
+
+Now we filter the dataframe for only the years in which a team fired their coach in the middle of a season and plot those histograms and calculate their means to determine if there’s a difference in team performance in the middle of a single season by firing their coach, with most other characteristics (i.e. roster composition, assistant coaches, payroll, etc.) held roughly constant during the course of a single season.
+
+Midseason Firings Distributions:
+
+![Box Plot 2](box_plot2.png)
+
